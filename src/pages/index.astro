@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "@astrojs/image/components";
+import Button from "../components/Button.astro";
+
+import devguy from "../images/developer-guy.png";
+---
+
+<Layout title="Startseite" description="Das ist meine Startseite">
+  <div class="flex flex-col xl:flex-row justify-between items-center">
+    <div class="w-full xl:w-1/2 flex flex-col justify-between items-center xl:items-start">
+      <div class="text-4xl md:text-6xl text-center xl:text-start mb-4">ページ遷移の練習</div>
+    </div>
+  </div>
+</Layout>
