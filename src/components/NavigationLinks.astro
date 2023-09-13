@@ -6,11 +6,11 @@ const pathname = new URL(Astro.request.url).pathname;
 const currentPath = pathname.split("/");
 ---
 
-<NavigationLink title="home" url="" currentpath={currentPath[1]} />
-<NavigationLink title="About" url="about" currentpath={currentPath[1]} />
-<NavigationLink title="profile" url="uses" currentpath={currentPath[1]} />
+<NavigationLink title="home" url="." />
+<NavigationLink title="About" url="about" />
+<NavigationLink title="profile" url="uses" />
 
-{
+<!-- {
   currentPath[1] === "blog" && currentPath[2] ? (
     <a href="#toc" class="block md:hidden">
       <Icon name="mdi:toc" width="32" height="32" class="ml-2" />
@@ -18,4 +18,4 @@ const currentPath = pathname.split("/");
   ) : (
     ""
   )
-}
+} -->

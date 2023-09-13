@@ -13,7 +13,7 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   site: "https://namiyusuke.github.io/",
-  base: "./swup-test",
+  base: "swup-test",
   // Markdown-Plugin konfigurieren
   markdown: {
     shikiConfig: {
