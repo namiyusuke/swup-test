@@ -16,7 +16,24 @@ const { title, description } = Astro.props;
     <title>{title}</title>
   </head>
   <body class="font-mono bg-light dark:bg-dark text-dark dark:text-light">
-    <main id="swup" class="relative md:container md:mx-auto w-full min-h-screen">
+    <main id="swup" class="relative">
+      <div id="loader" class="open">
+        <div class="loader_end"></div>
+        <div class="loader_start">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100vw" height="100vh" class="parallax-cover_clip">
+            <defs>
+              <!-- マスク用の図形 -->
+              <mask id="cross">
+                <rect width="100%" height="100%" fill="#ffffff"></rect>
+                <circle id="maskCircle" cx="50%" cy="50%" r="80" fill="#000"></circle>
+              </mask>
+            </defs>
+            <!-- 切り抜き対象 -->
+            <rect width="100vw" height="100vh" mask="url(#cross)" fill="#053A86"></rect>
+          </svg>
+          <div class="_transparent_circle"></div>
+        </div>
+      </div>
       <Header />
       <article class="swuptransition-fade text-lg md:text-2xl px-4 py-8">
         <slot />

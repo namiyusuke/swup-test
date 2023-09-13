@@ -61,8 +61,12 @@ import SwupA11yPlugin from "@swup/a11y-plugin";
 
 // Swup Page Transition
 const swup = new Swup({
-  animationSelector: '[class*="swuptransition-"]',
+  // animationSelector: '[class*="swuptransition-"]',
   plugins: [new SwupA11yPlugin(), new SwupHeadPlugin(), new SwupScrollPlugin()],
 });
+// swup.hooks.on("page:view", () => {}, { once: true });
 
+swup.hooks.on("page:view", (visit) => {
+  console.log("New page loaded:", visit.to.url);
+});
 // swup.on("contentReplaced", init);
