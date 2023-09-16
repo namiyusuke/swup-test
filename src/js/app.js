@@ -2,7 +2,7 @@ import Swup from "swup";
 import SwupScrollPlugin from "@swup/scroll-plugin";
 import SwupHeadPlugin from "@swup/head-plugin";
 import SwupA11yPlugin from "@swup/a11y-plugin";
-
+import gsap from "gsap";
 // class PageHandler {
 //   constructor() {
 //     this.typeWriterManager();
@@ -67,6 +67,25 @@ const swup = new Swup({
 // swup.hooks.on("page:view", () => {}, { once: true });
 
 swup.hooks.on("page:view", (visit) => {
-  console.log("New page loaded:", visit.to.url);
+  const tl = gsap.timeline({});
+  tl.to(".loader_start", {
+    display: "block",
+  }).to("#maskCircle", {
+    r: "100%",
+  });
 });
+// swup.hooks.on("visit:start", async () => {
+//   await function myCustomFunction() {
+//     const tl = gsap.timeline({});
+//     tl.to(".loader_start", {
+//       width: "140vw",
+//       height: "140vw",
+//       duration: 0.3,
+//     }).to("#maskCircle", {
+//       r: "100%",
+//     });
+//     myCustomFunction();
+//   };
+// });
+
 // swup.on("contentReplaced", init);

@@ -20,7 +20,7 @@ const { title, description } = Astro.props;
       <div id="loader" class="open">
         <div class="loader_end"></div>
         <div class="loader_start">
-          <svg xmlns="http://www.w3.org/2000/svg" width="100vw" height="100vh" class="parallax-cover_clip">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" class="parallax-cover_clip">
             <defs>
               <!-- マスク用の図形 -->
               <mask id="cross">
@@ -29,7 +29,7 @@ const { title, description } = Astro.props;
               </mask>
             </defs>
             <!-- 切り抜き対象 -->
-            <rect width="100vw" height="100vh" mask="url(#cross)" fill="#053A86"></rect>
+            <rect width="100%" height="100%" mask="url(#cross)" fill="#053A86"></rect>
           </svg>
           <div class="_transparent_circle"></div>
         </div>

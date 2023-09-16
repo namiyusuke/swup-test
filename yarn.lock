@@ -1567,12 +1567,12 @@
     magic-string "^0.25.0"
     string.prototype.matchall "^4.0.6"
 
-"@swup/a11y-plugin@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@swup/a11y-plugin/-/a11y-plugin-3.0.0.tgz#914c8a5e07f1cc9f47f64b3f063d2fde377fac53"
-  integrity sha512-GcbfKST5coaikQCpklOjPqTKYpu3JQZ3wN1auFuTtgPmhZMznByX2/a5CzmjLGbYbHRIqY4z9qzB0iWb18s8Wg==
+"@swup/a11y-plugin@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@swup/a11y-plugin/-/a11y-plugin-4.3.0.tgz#093d8093e7ce88c0d3eefc884d7fe1ec9374e90d"
+  integrity sha512-7OFqViKfy9+LLuFANCfI2c7xPzXgkeovoadKHweIapnrJMtCzM47FhU1x3Gy6KVlorSB/eCPDcqeOYdQbyzLlA==
   dependencies:
-    "@swup/plugin" "^2.0.0"
+    "@swup/plugin" "^3.0.0"
     focus-options-polyfill "^1.5.0"
     on-demand-live-region "^0.1.3"
 
@@ -1581,22 +1581,17 @@
   resolved "https://registry.yarnpkg.com/@swup/browserslist-config/-/browserslist-config-1.0.1.tgz#2692e00a554618f86ab8523210cee282a2370e46"
   integrity sha512-/3nBqG7LqmK1uqaCSTA6s2NwQBDQXNyLAFBzlX6uaxqjIQcAZyq6K+sgcQ40oj02Vn/2mLSkeL9DOfP7BPOwVA==
 
-"@swup/head-plugin@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@swup/head-plugin/-/head-plugin-1.3.0.tgz#d390e99f85486b9d8ecc70fc03d3f8392567b0fd"
-  integrity sha512-vKx+Bz9aDWu6ionZ3xvUoaKFJJyn4pJziw1EEXmfagBqWH+b/GN/es7LzKuLOLq8XTsgdmDaRjr0KCTy3mVuyg==
+"@swup/head-plugin@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@swup/head-plugin/-/head-plugin-2.1.1.tgz#b2986fbf523b37e13a47f46fbb0eee63ff1c3a71"
+  integrity sha512-cquC0/wWWqwC1blHjzSPkATCSy/PYpMcGGmdAs8ncK99v58Zuxtdyo2J+MZuJBWQsUzCe8YqCrJK+pCHmWOrnA==
   dependencies:
-    "@swup/plugin" "^1.0.1"
+    "@swup/plugin" "^3.0.0"
 
-"@swup/plugin@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@swup/plugin/-/plugin-1.0.1.tgz#10606322508724a5beaed6a09326d8c30c7041fa"
-  integrity sha512-QrTGn1DLx+50CNsk6oGzUFnyNyLkDK6iLb032qKImmAXS+0Dd1cwa8cSGvJ+I27J4qR8y6oJNurgHIEc6ZCTrg==
-
-"@swup/plugin@^2.0.0":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@swup/plugin/-/plugin-2.0.3.tgz#09932df7d128b331fbfc11f7e067f54b60a7361d"
-  integrity sha512-FvieiuqSRMw0uKdWnHJ/aI+vDB9Yg91GFr2XqRNAn0G4du5uGefr85i89AolhRVAGGqZa5U9gZSZ2yfhJ22l3Q==
+"@swup/plugin@^3.0.0":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@swup/plugin/-/plugin-3.0.1.tgz#b396c680a5fb70bd4ae33934671b1919b7a67ab1"
+  integrity sha512-A9yiJeKTmQ9kac2Eo3MbMWW+Tiw23W5OSzAHVTCfW6n5zze6dexY3FLEUSDTcvRgciknvXfMZ9JTnebbvCKKWw==
   dependencies:
     "@swup/browserslist-config" "^1.0.0"
     "@swup/prettier-config" "^1.0.0"
@@ -1605,19 +1600,19 @@
     prettier "^2.7.1"
     shelljs "^0.8.5"
     shelljs-live "^0.0.5"
-    swup "^3.0.0"
+    swup "^4.0.0"
 
 "@swup/prettier-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@swup/prettier-config/-/prettier-config-1.1.0.tgz#64df1175d2b41040f65e739ad3e612ab33165195"
   integrity sha512-EF4DMdIGieEsuY2XK0PuLf7Uw7yUQOMbA6IdCMvvRvKXj03WLLpnNIFfFp+6hmMtXRSUE88VBpRyp6Giiu1Pbg==
 
-"@swup/scroll-plugin@^2.0.2":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@swup/scroll-plugin/-/scroll-plugin-2.0.3.tgz#f6007c834194b142809b65da896633f6958b5056"
-  integrity sha512-1YYGbRV5IToboW/NSsM4QxSDtUqXnXuYrvjqkHJdIimaHfq5XESi1OPCmf0rTLQGrqhQguEeaJ2lMuDu2wMSsQ==
+"@swup/scroll-plugin@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@swup/scroll-plugin/-/scroll-plugin-3.3.0.tgz#91376365aeb5df24670abff2918411b375a07b41"
+  integrity sha512-tjs7akBm2bfeG12qAvC2/1dwyh7n7QryUkwW/ZYoqdDpy9FFAd8Cbb628iid5VKS5EDTjnfjL5Om4uniYf4Scw==
   dependencies:
-    "@swup/plugin" "^2.0.0"
+    "@swup/plugin" "^3.0.0"
     scrl "^2.0.0"
 
 "@trysound/sax@0.2.0":
@@ -3295,6 +3290,11 @@ gray-matter@^4.0.3:
     kind-of "^6.0.2"
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
+
+gsap@^3.12.2:
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.12.2.tgz#6e88203eed360761cbf2a2cb3a8d702aa87f3f6d"
+  integrity sha512-EkYnpG8qHgYBFAwsgsGEqvT1WUidX0tt/ijepx7z8EUJHElykg91RvW1XbkT59T0gZzzszOpjQv7SE41XuIXyQ==
 
 gzip-size@^3.0.0:
   version "3.0.0"
@@ -6244,13 +6244,14 @@ svgo@^2.7.0, svgo@^2.8.0:
     picocolors "^1.0.0"
     stable "^0.1.8"
 
-swup@^3.0.0, swup@^3.0.8:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/swup/-/swup-3.1.1.tgz#405439fe4a566eb166e486248214e36f63de8a95"
-  integrity sha512-fO8ID/SOYTCl5/Cm45rG3wFBFbrxnjeJ+S9q3eKJL1l3pjl6QUCZNqB4Tid4H0eQXlZv5dNDj4KD3AwWK5Il4w==
+swup@^4.0.0, swup@^4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/swup/-/swup-4.3.4.tgz#0d9785ada159e69922b5ed6ca3b01d210be85699"
+  integrity sha512-cAdTgS1aNGlwLeqO2nwnTv1aTtH8HvNqWweoNvHanyQon7qMZI3JvZHTxCn42S7K2QjSppEgLdfFL0J7iH0EKw==
   dependencies:
     delegate-it "^6.0.0"
     opencollective-postinstall "^2.0.2"
+    path-to-regexp "^6.2.1"
 
 synckit@^0.8.4:
   version "0.8.5"
